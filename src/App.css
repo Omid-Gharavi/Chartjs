@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  text-align: left;
+}
+
+input::placeholder {
+  text-align: right;
+}
+
+body {
+  min-height: 100vh;
+}
